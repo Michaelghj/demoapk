@@ -7,7 +7,7 @@
 set -e
 
 GRADLE_VERSION="8.2"
-GRADLE_HOME_DIR="$HOME/.gradle/wrapper/dists/gradle-$GRADLE_VERSION-bin"
+GRADLE_HOME_DIR="$HOME/.gradle/wrapper/dists/gradle-$GRADLE_VERSION"
 
 # If Gradle not installed, download it
 if [ ! -d "$GRADLE_HOME_DIR" ]; then
@@ -18,6 +18,6 @@ if [ ! -d "$GRADLE_HOME_DIR" ]; then
     rm /tmp/gradle.zip
 fi
 
-GRADLE_BIN="$HOME/.gradle/wrapper/dists/gradle-$GRADLE_VERSION/gradle-$GRADLE_VERSION/bin/gradle"
+GRADLE_BIN="$HOME/.gradle/wrapper/dists/gradle-$GRADLE_VERSION/bin/gradle"
 
 exec "$GRADLE_BIN" "$@"
