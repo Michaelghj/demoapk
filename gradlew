@@ -6,7 +6,7 @@
 
 set -e
 
-GRADLE_VERSION="8.4"
+GRADLE_VERSION="8.2"
 GRADLE_HOME_DIR="$HOME/.gradle/wrapper/dists/gradle-$GRADLE_VERSION-bin"
 
 # If Gradle not installed, download it
