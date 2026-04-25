@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">防沉迷助手</string>
+    <string name="accessibility_service_description">此服务用于监控应用使用情况，保护青少年免受过度使用手机的困扰。开启后可以检测并限制指定应用的使用时间。</string>
+    
+    <!-- 主界面 -->
+    <string name="btn_start_monitor">启动监控</string>
+    <string name="btn_stop_monitor">停止监控</string>
+    <string name="btn_add_app">添加限制应用</string>
+    <string name="btn_face_register">注册人脸</string>
+    <string name="status_monitoring">监控中</string>
+    <string name="status_stopped">已停止</string>
+    
+    <!-- 通知 -->
+    <string name="notification_channel_name">防沉迷监控</string>
+    <string name="notification_title">防沉迷助手运行中</string>
+    <string name="notification_content">正在监控应用使用情况</string>
+    <string name="notification_action_verify">立即验证</string>
+    
+    <!-- 人脸验证 -->
+    <string name="face_verify_title">身份验证</string>
+    <string name="face_verify_instruction">请看向摄像头进行人脸验证</string>
+    <string name="face_verify_success">验证成功</string>
+    <string name="face_verify_failed">验证失败，请重试</string>
+    <string name="face_no_face">未检测到人脸</string>
+    <string name="face_multiple_faces">检测到多张人脸，请单独验证</string>
+    
+    <!-- 权限请求 -->
+    <string name="permission_camera_required">需要相机权限进行人脸验证</string>
+    <string name="permission_accessibility_required">需要开启辅助功能权限以监控应用使用</string>
+    
+    <!-- 限制应用列表 -->
+    <string name="restricted_apps_title">限制应用列表</string>
+    <string name="add_restricted_app">添加限制应用</string>
+    <string name="verify_interval">验证间隔：5 分钟</string>
+</resources>
